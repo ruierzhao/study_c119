@@ -30,6 +30,10 @@
     import { createApp } from 'vue'
     import App from './src/App.vue'
 
+    import keys from "/private.json"
+    window.defaultAccessToken = keys.defaultAccessToken
+    window.TDTkey = keys.TDTkey
+
     createApp(App).mount('#app')
   </script>
 </body>

@@ -155,4 +155,5 @@ var geojson = {
 }
 
 ```
-
+## cesium 中entity类型
+![entity](./images/entity.png)
