@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cesium:
-        specifier: ^1.119.0
-        version: 1.119.0
+        specifier: ^1.99.0
+        version: 1.99.0
       vue:
         specifier: ^3.4.31
         version: 3.4.33
@@ -23,7 +23,7 @@ importers:
         version: 5.3.4(@types/node@20.14.12)
       vite-plugin-cesium:
         specifier: ^1.2.22
-        version: 1.2.22(cesium@1.119.0)(rollup@4.19.0)(vite@5.3.4(@types/node@20.14.12))
+        version: 1.2.22(cesium@1.99.0)(rollup@4.19.0)(vite@5.3.4(@types/node@20.14.12))
 
 packages:
 
@@ -43,14 +43,6 @@ packages:
   '@babel/types@7.24.9':
     resolution: {integrity: sha512-xm8XrMKz0IlUdocVbYJe0Z9xEgidU7msskG8BbhnTPK/HZ2z/7FP7ykqPgrUH+C+r414mNfNWam1f2vqOjqjYQ==}
     engines: {node: '>=6.9.0'}
-
-  '@cesium/engine@10.0.0':
-    resolution: {integrity: sha512-0bynRIV5nGjZGuRm0ajvZ4cyIwSW/Z29CMaWcruJUhjprEW9u9YvJ5xsJkTe1qD45sR2E1XEejVkPv056x5GNg==}
-    engines: {node: '>=14.0.0'}
-
-  '@cesium/widgets@7.0.0':
-    resolution: {integrity: sha512-h8ntI7irvzZbtXcYmwDXxJe8WDbrGreoV7Z+IyA18M+ko7wI5oFtWwVsqH6QwNPNqE7gk7YxqVbGUi0UsRPC8g==}
-    engines: {node: '>=14.0.0'}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -316,8 +308,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@tweenjs/tween.js@23.1.2':
-    resolution: {integrity: sha512-kMCNaZCJugWI86xiEHaY338CU5JpD0B97p1j1IKNn/Zto8PgACjQx0UxbHjmOcLl/dDOBnItwD07KmCs75pxtQ==}
+  '@tweenjs/tween.js@18.6.4':
+    resolution: {integrity: sha512-lB9lMjuqjtuJrx7/kOkqQBtllspPIN+96OvTCeJ2j5FEzinoAXTdAMFnDAQT1KVPRlnYfBrqxtqP66vDM40xxQ==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -361,23 +353,22 @@ packages:
   '@vue/shared@3.4.33':
     resolution: {integrity: sha512-aoRY0jQk3A/cuvdkodTrM4NMfxco8n55eG4H7ML/CRy7OryHfiqvug4xrCBBMbbN+dvXAetDDwZW9DXWWjBntA==}
 
-  '@zip.js/zip.js@2.7.47':
-    resolution: {integrity: sha512-jmtJMA3/Jl4rMzo/DZ79s6g0CJ1AZcNAO6emTy/vHfIKAB/iiFY7PLs6KmbRTJ+F8GnK2eCLnjQfCCneRxXgzg==}
-    engines: {bun: '>=0.7.0', deno: '>=1.0.0', node: '>=16.5.0'}
+  '@zip.js/zip.js@2.4.26':
+    resolution: {integrity: sha512-I9HBO3BHIxEMQmltmHM3iqUW6IHqi3gsL9wTSXvHTRpOrA6q2OxtR58EDSaOGjHhDVJ+wIOAxZyKq2x00AVmqw==}
 
   at-least-node@1.0.0:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
 
-  autolinker@4.0.0:
-    resolution: {integrity: sha512-fl5Kh6BmEEZx+IWBfEirnRUU5+cOiV0OK7PEt0RBKvJMJ8GaRseIOeDU3FKf4j3CE5HVefcjHmhYPOcaVt0bZw==}
+  autolinker@3.16.2:
+    resolution: {integrity: sha512-JiYl7j2Z19F9NdTmirENSUUIIL/9MytEWtmzhfmsKPCp9E+G35Y0UNCMoM9tFigxT59qSc8Ml2dlZXOCVTYwuA==}
 
   bitmap-sdf@1.0.4:
     resolution: {integrity: sha512-1G3U4n5JE6RAiALMxu0p1XmeZkTeCwGKykzsLTCqVzfSDaN6S7fKnkIkfejogz+iwqBWc0UYAIKnKHNN7pSfDg==}
 
-  cesium@1.119.0:
-    resolution: {integrity: sha512-ifapkGusMJ2YhpyjAXGNiiZXFZ+QLzWro1OyBsqJjSGOK95Aab9dOBw0aPDXdzlaN7hxUFViN5+b2nN75fC9QA==}
-    engines: {node: '>=18.18.0'}
+  cesium@1.99.0:
+    resolution: {integrity: sha512-bVN7Bskd9PVhQe9Ak9DEr7wEckbCJc0UPq58MKWGWAkQfiYob8odh6luqY5Yz26trr3tWwni1xWjsCe94y37jw==}
+    engines: {node: '>=14.0.0'}
 
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
@@ -401,11 +392,8 @@ packages:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
-  dompurify@3.1.6:
-    resolution: {integrity: sha512-cTOAhc36AalkjtBpfG6O8JimdTMWNXjiePT2xQH/ppBGi/4uIpmj8eKyIkMJErXWARyINV/sB38yf8JCLF5pbQ==}
-
-  draco3d@1.5.7:
-    resolution: {integrity: sha512-m6WCKt/erDXcw+70IJXnG7M3awwQPAsZvJGX5zY7beBqpELw6RDGkYVU0W43AFxye4pDZ5i2Lbyc/NNGqwjUVQ==}
+  dompurify@2.5.6:
+    resolution: {integrity: sha512-zUTaUBO8pY4+iJMPE1B9XlO2tXVYIcEA4SNGtvDELzTSCQO7RzH+j7S180BmhmJId78lqGU2z19vgVx2Sxs/PQ==}
 
   earcut@2.2.4:
     resolution: {integrity: sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==}
@@ -465,18 +453,18 @@ packages:
   is-reference@1.2.1:
     resolution: {integrity: sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==}
 
-  jsep@1.3.9:
-    resolution: {integrity: sha512-i1rBX5N7VPl0eYb6+mHNp52sEuaS2Wi8CDYx1X5sn9naevL78+265XJqy1qENEk7mRKwS06NHpUqiBwR7qeodw==}
-    engines: {node: '>= 10.16.0'}
+  jsep@0.3.5:
+    resolution: {integrity: sha512-AoRLBDc6JNnKjNcmonituEABS5bcfqDhQAWWXNTFrqu6nVXBpBAGfcoTGZMFlIrh9FjmE1CQyX9CTNwZrXMMDA==}
+    engines: {node: '>= 6.0.0'}
 
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
-  kdbush@4.0.2:
-    resolution: {integrity: sha512-WbCVYJ27Sz8zi9Q7Q0xHC+05iwkm3Znipc2XTlrnJbsHMYktW4hPhXUE8Ys1engBrvffoSCqbil1JQAa7clRpA==}
+  kdbush@3.0.0:
+    resolution: {integrity: sha512-hRkd6/XW4HTsA9vjVpY9tuXJYLSlelnkTmVFu4M9/7MIYQtFcHpbugAU7UbOfjOiVSVYl2fqgBuJ32JUmRo5Ew==}
 
-  ktx-parse@0.7.0:
-    resolution: {integrity: sha512-naezun/2iiWrantwoRI9mw6E4iN41ggYzJSR9XAZzf6+rv+2Tb1yYN8VJhGsA0uptBexE0m4GDh+iiQhYpW+Qw==}
+  ktx-parse@0.4.5:
+    resolution: {integrity: sha512-MK3FOody4TXbFf8Yqv7EBbySw7aPvEcPX++Ipt6Sox+/YMFvR5xaTyhfNSk1AEmMy+RYIw81ctN4IMxCB8OAlg==}
 
   lerc@2.0.0:
     resolution: {integrity: sha512-7qo1Mq8ZNmaR4USHHm615nEW2lPeeWJ3bTyoqFbd35DLx0LUH7C6ptt5FDCTAlbIzs3+WKrk5SkJvw8AFDE2hg==}
@@ -493,8 +481,8 @@ packages:
   mersenne-twister@1.1.0:
     resolution: {integrity: sha512-mUYWsMKNrm4lfygPkL3OfGzOPTR2DBlTkBNHM//F6hGp8cLThY897crAlk3/Jo17LEOOjQUrNAx6DvgO77QJkA==}
 
-  meshoptimizer@0.21.0:
-    resolution: {integrity: sha512-WabtlpnK/GgD0GMwYd1fBTfYHf4MIcQPEg6dt7y4GuDcY51RzLSkSNE8ZogD7U3Vs2/fIf4z89TOLpA80EOnhg==}
+  meshoptimizer@0.18.1:
+    resolution: {integrity: sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==}
 
   mime@1.6.0:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
@@ -667,33 +655,6 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
-  '@cesium/engine@10.0.0':
-    dependencies:
-      '@tweenjs/tween.js': 23.1.2
-      '@zip.js/zip.js': 2.7.47
-      autolinker: 4.0.0
-      bitmap-sdf: 1.0.4
-      dompurify: 3.1.6
-      draco3d: 1.5.7
-      earcut: 2.2.4
-      grapheme-splitter: 1.0.4
-      jsep: 1.3.9
-      kdbush: 4.0.2
-      ktx-parse: 0.7.0
-      lerc: 2.0.0
-      mersenne-twister: 1.1.0
-      meshoptimizer: 0.21.0
-      pako: 2.1.0
-      protobufjs: 7.3.2
-      rbush: 3.0.1
-      topojson-client: 3.1.0
-      urijs: 1.19.11
-
-  '@cesium/widgets@7.0.0':
-    dependencies:
-      '@cesium/engine': 10.0.0
-      nosleep.js: 0.12.0
-
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
 
@@ -841,7 +802,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.19.0':
     optional: true
 
-  '@tweenjs/tween.js@23.1.2': {}
+  '@tweenjs/tween.js@18.6.4': {}
 
   '@types/estree@1.0.5': {}
 
@@ -908,20 +869,37 @@ snapshots:
 
   '@vue/shared@3.4.33': {}
 
-  '@zip.js/zip.js@2.7.47': {}
+  '@zip.js/zip.js@2.4.26': {}
 
   at-least-node@1.0.0: {}
 
-  autolinker@4.0.0:
+  autolinker@3.16.2:
     dependencies:
       tslib: 2.6.3
 
   bitmap-sdf@1.0.4: {}
 
-  cesium@1.119.0:
+  cesium@1.99.0:
     dependencies:
-      '@cesium/engine': 10.0.0
-      '@cesium/widgets': 7.0.0
+      '@tweenjs/tween.js': 18.6.4
+      '@zip.js/zip.js': 2.4.26
+      autolinker: 3.16.2
+      bitmap-sdf: 1.0.4
+      dompurify: 2.5.6
+      earcut: 2.2.4
+      grapheme-splitter: 1.0.4
+      jsep: 0.3.5
+      kdbush: 3.0.0
+      ktx-parse: 0.4.5
+      lerc: 2.0.0
+      mersenne-twister: 1.1.0
+      meshoptimizer: 0.18.1
+      nosleep.js: 0.12.0
+      pako: 2.1.0
+      protobufjs: 7.3.2
+      rbush: 3.0.1
+      topojson-client: 3.1.0
+      urijs: 1.19.11
 
   commander@2.20.3: {}
 
@@ -935,9 +913,7 @@ snapshots:
 
   destroy@1.2.0: {}
 
-  dompurify@3.1.6: {}
-
-  draco3d@1.5.7: {}
+  dompurify@2.5.6: {}
 
   earcut@2.2.4: {}
 
@@ -1009,7 +985,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.5
 
-  jsep@1.3.9: {}
+  jsep@0.3.5: {}
 
   jsonfile@6.1.0:
     dependencies:
@@ -1017,9 +993,9 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  kdbush@4.0.2: {}
+  kdbush@3.0.0: {}
 
-  ktx-parse@0.7.0: {}
+  ktx-parse@0.4.5: {}
 
   lerc@2.0.0: {}
 
@@ -1035,7 +1011,7 @@ snapshots:
 
   mersenne-twister@1.1.0: {}
 
-  meshoptimizer@0.21.0: {}
+  meshoptimizer@0.18.1: {}
 
   mime@1.6.0: {}
 
@@ -1169,9 +1145,9 @@ snapshots:
 
   urijs@1.19.11: {}
 
-  vite-plugin-cesium@1.2.22(cesium@1.119.0)(rollup@4.19.0)(vite@5.3.4(@types/node@20.14.12)):
+  vite-plugin-cesium@1.2.22(cesium@1.99.0)(rollup@4.19.0)(vite@5.3.4(@types/node@20.14.12)):
     dependencies:
-      cesium: 1.119.0
+      cesium: 1.99.0
       fs-extra: 9.1.0
       rollup-plugin-external-globals: 0.6.1(rollup@4.19.0)
       serve-static: 1.15.0

@@ -6,20 +6,12 @@
 <script setup>
 import * as Cesium from "cesium";
 import { onMounted } from "vue";
+
 Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MGI4MGIyYi02YTkyLTQ2MmQtYmU1NC0xZDA4NDhjMmNhNWEiLCJpZCI6MjA4NDIyLCJpYXQiOjE3MTI5ODA0MzB9.EyfN0dxYCL5zgu8L3bFia69viTZYF89sBFJG_WpGrs0"
 
 onMounted(() => {
-  const viewer = new Cesium.Viewer("cesiumContainer", {})
-  window.viewer = viewer
+  const viewer = new Cesium.Viewer("cesiumContainer");
 
-  const point = new Cesium.Entity({
-    position: Cesium.Cartesian3.fromDegrees(116, 40),
-    point: {
-      pixelSize: 20
-    }
-  })
-  viewer.entities.add(point)
-  viewer.zoomTo(point)
 })
 
 </script>
@@ -30,10 +22,10 @@ onMounted(() => {
   overflow: hidden;
 }
 
-.cesium-viewer-timelineContainer,
+/* .cesium-viewer-timelineContainer,
 .cesium-viewer-animationContainer,
 .cesium-viewer-bottom,
 .cesium-viewer-toolbar {
   display: none;
-}
+} */
 </style>
